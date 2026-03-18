@@ -1,1 +1,14 @@
 *.zip
+
+# Software
+software/.metadata/*
+Debug/
+Release/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.su
+*.cyclo
+objects.list
+*.launch
