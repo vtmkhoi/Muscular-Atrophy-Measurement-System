@@ -1,6 +1,6 @@
 LTspice 26.0.0 for Windows
-Circuit: C:\Users\minhk\OneDrive\Education\Master\04_Projects\05_thesis\hardware\simulation\EIM_ver01.net
-Start Time: Sun Mar  8 16:33:56 2026
+Circuit: C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
+Start Time: Tue Mar 17 21:18:00 2026
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -12,12 +12,12 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.257 seconds.
+Total elapsed time: 0.239 seconds.
 
 Files loaded:
-C:\Users\minhk\OneDrive\Education\Master\04_Projects\05_thesis\hardware\simulation\EIM_ver01.net
-C:\Users\minhk\OneDrive\Education\Master\04_Projects\05_thesis\hardware\simulation\ad8130.cir
-C:\Users\minhk\OneDrive\Education\Master\04_Projects\05_thesis\hardware\simulation\Ad8014.cir
+C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
+C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\ad8130.cir
+C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\Ad8014.cir
 C:\Users\minhk\AppData\Local\LTspice\lib\sub\AD9834.sub
 C:\Users\minhk\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
