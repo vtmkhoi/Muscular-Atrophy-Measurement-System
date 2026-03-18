@@ -1,4 +1,5 @@
 *.zip
+*.pdf
 
 # Software
 software/.metadata/*
