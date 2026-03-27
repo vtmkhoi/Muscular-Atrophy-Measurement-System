@@ -1,6 +1,6 @@
 LTspice 26.0.0 for Windows
 Circuit: C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
-Start Time: Tue Mar 17 21:18:00 2026
+Start Time: Sat Mar 28 01:43:15 2026
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -12,7 +12,7 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.239 seconds.
+Total elapsed time: 1.286 seconds.
 
 Files loaded:
 C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
