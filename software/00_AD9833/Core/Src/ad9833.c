@@ -2,21 +2,14 @@
  * ad9833.c
  *
  *  Created on: Mar 24, 2026
- *      Author: minhk
+ *      Author: KhoiVTM14
  */
 
 #include "ad9833.h"
 
-/*
- * Module AD9833 phổ biến thường dùng oscillator 25 MHz.
- * Nếu sau này bạn đọc trên vỏ oscillator thấy khác, sửa lại macro này.
- */
 #define AD9833_MCLK_HZ        25000000UL
 
-/* Vì project của bạn không có spi.h, khai báo extern ở đây */
-extern SPI_HandleTypeDef hspi4;
-
-/* Dùng thẳng pin PE11 để khỏi phụ thuộc label */
+/* FSYNC GPIO PORT */
 #define AD9833_FSYNC_GPIO_Port   GPIOE
 #define AD9833_FSYNC_Pin         GPIO_PIN_11
 
@@ -36,6 +29,7 @@ extern SPI_HandleTypeDef hspi4;
 #define AD9833_REG_FREQ0      0x4000
 #define AD9833_REG_PHASE0     0xC000
 
+extern SPI_HandleTypeDef hspi4;
 static uint16_t g_ctrl = AD9833_B28;
 
 static void AD9833_FSYNC_Low(void)
@@ -67,7 +61,10 @@ static void AD9833_WriteControl(uint16_t ctrl)
 
 void AD9833_SetFrequencyHz(uint32_t fout_hz)
 {
-    uint32_t freq_word = (uint32_t)(((uint64_t)fout_hz << 28) / AD9833_MCLK_HZ);
+    if (fout_hz > (AD9833_MCLK_HZ / 2U)) {
+        fout_hz = AD9833_MCLK_HZ / 2U;
+    }
+    uint32_t freq_word = (uint32_t)(((((uint64_t)fout_hz) << 28) + (AD9833_MCLK_HZ / 2U)) / AD9833_MCLK_HZ);
 
     uint16_t lsb = AD9833_REG_FREQ0 | (uint16_t)(freq_word & 0x3FFF);
     uint16_t msb = AD9833_REG_FREQ0 | (uint16_t)((freq_word >> 14) & 0x3FFF);
@@ -120,11 +117,11 @@ void AD9833_Init(void)
     /* reset + B28 */
     AD9833_WriteControl(AD9833_B28 | AD9833_RESET);
 
-    /* cấu hình mặc định */
+    /* Default configuration */
     AD9833_SetFrequencyHz(10000);     // 10 kHz
     AD9833_SetPhaseDeg(0.0f);
     AD9833_SetWaveform(AD9833_WAVE_SINE);
 
-    /* clear reset => bắt đầu phát sóng */
+    /* clear reset, start generate wave */
     AD9833_WriteControl(AD9833_B28);
 }

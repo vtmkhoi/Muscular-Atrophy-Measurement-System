@@ -116,7 +116,7 @@ int main(void)
 
   AD9833_Init();
   AD9833_SetWaveform(AD9833_WAVE_SINE);
-  AD9833_SetFrequencyHz(12500);
+  AD9833_SetFrequencyHz(10000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
