@@ -1,0 +1,20 @@
+name: restrict_merge_main
+
+on:
+  pull_request:
+    branches:
+      - main # This workflow only triggers on PRs targeting the main branch
+
+jobs:
+  check-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify Source Branch
+        run: |
+          if [[ "${{ github.head_ref }}" != "develop" ]]; then
+            echo "❌ WORKFLOW ERROR: You must merge from 'develop' into 'main'!"
+            echo "Current source branch detected: ${{ github.head_ref }}"
+            exit 1
+          else
+            echo "✅ WORKFLOW SUCCESS: Source branch is 'develop'. Ready to merge."
+          fi
