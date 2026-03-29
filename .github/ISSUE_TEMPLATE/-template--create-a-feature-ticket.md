@@ -2,7 +2,7 @@
 name: "[Template] Create a feature ticket"
 about: This template is for creating the feature ticket
 title: "[HW/SW/FW/Doc][Module]"
-labels: ''
+labels: Meeting Note
 assignees: vtmkhoi
 
 ---
