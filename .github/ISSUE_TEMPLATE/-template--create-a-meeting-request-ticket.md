@@ -1,7 +1,7 @@
 ---
-name: "[Template] Create a feature ticket"
-about: This template is for creating the feature ticket
-title: "[Meeting note]: <DD.MM.YYYY>"
+name: "[Template] Create a meeting request ticket"
+about: This template is for creating the meeting request ticket
+title: "[Meeting Date]: <DD.MM.YYYY>"
 labels: 'Meeting Note'
 assignees: vtmkhoi
 
