@@ -1,6 +1,6 @@
 LTspice 26.0.0 for Windows
 Circuit: C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
-Start Time: Sat Apr  4 18:14:55 2026
+Start Time: Mon Apr  6 19:56:34 2026
 
 .step freq=10000
 solver = Normal
@@ -8,30 +8,17 @@ Maximum thread count: 20
 tnom = 27
 temp = 27
 method = trap
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
-Starting source stepping with srcstepmethod=0
-Starting source stepping with srcstepmethod=1
-Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
-Starting Gmin stepping level 2
-Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
-Starting source stepping with srcstepmethod=1, level 2
-Starting source stepping with srcstepmethod=0, level 2
-Source stepping aborted.
-Pseudo Transient cancelled by user at 604.167 µs
-Pseudo Transient level 2 cancelled by user at 0 s
-Failed to find DC operating point for AC analysis.
+Direct Newton iteration succeeded in finding operating point.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.0048419876528722e-05 to 1.0048419876529722e-05 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.6448551583383608e-05 to 1.6448551583384608e-05 seconds.
 
 Simulation stopped by user.
-Total elapsed time: 167.861 seconds.
+Total elapsed time: 7.849 seconds.
 
 Files loaded:
 C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\EIM_ver01.net
 C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\ad8130.cir
 C:\Users\minhk\OneDrive\Education\Master\04_Projects\Muscular-Atrophy-Measurement-System\hardware\simulation\Ad8014.cir
-C:\Users\minhk\AppData\Local\LTspice\lib\sub\AD8065.sub
-C:\Users\minhk\AppData\Local\LTspice\lib\sub\AD8066.sub
 C:\Users\minhk\AppData\Local\LTspice\lib\sub\AD9834.sub
 C:\Users\minhk\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
