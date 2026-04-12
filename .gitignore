@@ -1,5 +1,7 @@
 *.zip
 *.pdf
+# Simulation
+**.raw
 
 # Software
 software/.metadata/*
