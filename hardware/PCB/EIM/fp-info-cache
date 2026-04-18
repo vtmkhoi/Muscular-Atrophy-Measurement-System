@@ -1,5 +1,19 @@
-26639935450503939
+26654049249701754
 AD8014ARZ
+SOIC127P600X175-8N
+
+
+0
+8
+8
+AD8065ARTZ
+SOT95P290X145-5N
+
+
+0
+5
+5
+AD8066ARZ
 SOIC127P600X175-8N
 
 
@@ -13,6 +27,13 @@ SOIC127P600X175-8N
 0
 8
 8
+AD8302ARUZ
+SOP65P640X120-14N
+
+
+0
+14
+14
 AD9834BRUZ
 SOP65P640X120-20N
 
@@ -34,6 +55,20 @@ audio belton reverb
 0
 7
 7
+BNC-TE-TH-RA
+BNC_TE_Horizontal
+BNC RF Interface, PCB mount 4 pin, Right Angle, Bayonet, 50Ohm, 4GHz, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1478035%7FB1%7Fpdf%7FEnglish%7FENG_CD_1478035_B1.pdf%7F1-1478035-0
+BNC RF interface bayonet 50ohm
+0
+5
+2
+BNC-TE-TH-RA
+SAMTEC_BNC7T-J-P-XX-RA-BH1
+
+
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -9015,6 +9050,13 @@ mcrf hirose ufl u.fl microcoaxial
 0
 4
 2
+Connector_Coaxial
+Untitled
+
+
+0
+0
+0
 Connector_Coaxial
 WR-MMCX_Wuerth_66012102111404_Vertical
 Würth WR-MMCX PCB SMT Jack, Vertical (https://www.we-online.com/components/products/datasheet/66012102111404.pdf)
@@ -59345,6 +59387,13 @@ ceramic
 0
 3
 3
+DPEE_logo
+DPEE_Footprint
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -97124,6 +97173,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMA-CONSMA002-G
+LINX_CONSMA002-G
+
+
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
