@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EIM.kicad_pro",
+    "filename": "EIM_Module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -707,7 +707,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://dpee_worksheet_template.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -723,6 +723,22 @@
     [
       "b637c68f-0528-4d93-9932-d8222f5b2863",
       "Root"
+    ],
+    [
+      "fd3fb7da-5a2e-4b14-8674-7af54dd2045e",
+      "Signal Generator & Differential to Single"
+    ],
+    [
+      "cc414588-e43b-4dc6-856d-f34f45926a37",
+      "Buffer & Filter blocks"
+    ],
+    [
+      "c38e0689-e95b-416d-aac4-9077624f7b68",
+      "Voltage Controlled Current Source & Load"
+    ],
+    [
+      "74b58529-d9d4-494e-b316-602f6b154641",
+      "Gain & Phase detector"
     ]
   ],
   "text_variables": {}

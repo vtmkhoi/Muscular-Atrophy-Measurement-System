@@ -1,4 +1,4 @@
-26654049249701754
+26655825945238783
 AD8014ARZ
 SOIC127P600X175-8N
 
@@ -59387,13 +59387,6 @@ ceramic
 0
 3
 3
-DPEE_logo
-DPEE_Footprint
-
-
-0
-0
-0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -106329,3 +106322,17 @@ Varistor VF
 0
 2
 2
+dpee_logo_kicad
+DPEE_Footprint
+
+
+0
+0
+0
+dpee_logo_kicad
+VLDT_Logo_only
+
+
+0
+0
+0
