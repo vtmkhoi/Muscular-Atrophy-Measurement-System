@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD9834BRUZ")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD9834BRUZ/AD9834BRUZ.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8130ARZ")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD8130ARZ/AD8130ARZ.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8014ARZ")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD8014ARZ/AD8014ARZ.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8065ARTZ")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD8065ARTZ/AD8065ARTZ-REEL7.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA")(type "Legacy")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/SMA-CONSMA002-G/CONSMA002-G.lib")(options "")(descr ""))
+  (lib (name "BNC")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/BNC-TE-TH-RA/BNC7T-J-P-XX-RA-BH1.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8066")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD8066ARZ/AD8066ARZ-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8302ARUZ")(type "KiCad")(uri "C:/Users/minhk/OneDrive/Education/Master/04_Projects/Muscular-Atrophy-Measurement-System/hardware/PCB/libs/AD8302ARUZ/AD8302ARUZ.kicad_sym")(options "")(descr ""))
+)
