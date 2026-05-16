@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="TKHsYhdBsarYDzbT1lqJ">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q_ybQa6r-f69JPxxQuRQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Microcontroller&lt;br&gt;STM32F411" vertex="1">
+          <mxGeometry height="140" width="180" x="270" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu31WfzIJNeWsA98CDwy-3" edge="1" parent="1" source="Gu31WfzIJNeWsA98CDwy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gu31WfzIJNeWsA98CDwy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu31WfzIJNeWsA98CDwy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Pin Lithium&lt;br&gt;9V - 12V" vertex="1">
+          <mxGeometry height="140" width="76" x="336" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu31WfzIJNeWsA98CDwy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ADP2302" vertex="1">
+          <mxGeometry height="32" width="88" x="447" y="826" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
