@@ -1,4 +1,4 @@
-26661282330972531
+26663061944188370
 AD8014ARZ
 SOIC127P600X175-8N
 
@@ -106331,6 +106331,13 @@ DPEE_Footprint
 0
 dpee_logo_kicad
 VLDT_Logo_only
+
+
+0
+0
+0
+dpee_logo_kicad
+dpee-logo_4x4
 
 
 0

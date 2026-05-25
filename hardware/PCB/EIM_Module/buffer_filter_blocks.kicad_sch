@@ -3394,7 +3394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VA"
 			(at 260.35 73.66 0)
 			(effects
 				(font
@@ -3536,8 +3536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 188.468 116.84 90)
+		(property "Value" "-5VA"
+			(at 187.198 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e202bde-3591-48c8-b3bf-74301ab5ecba")
-		(property "Reference" "C3"
+		(property "Reference" "C33"
 			(at 263.906 79.502 0)
 			(effects
 				(font
@@ -5252,7 +5252,7 @@
 		(instances
 			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/cc414588-e43b-4dc6-856d-f34f45926a37"
-					(reference "C3")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
+		(property "Value" "-5VA"
 			(at 279.4 73.66 0)
 			(effects
 				(font
@@ -5418,8 +5418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 188.468 93.98 90)
+		(property "Value" "+5VA"
+			(at 187.452 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)

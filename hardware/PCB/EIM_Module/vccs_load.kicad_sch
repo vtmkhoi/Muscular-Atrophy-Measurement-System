@@ -756,16 +756,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Analog Devices"
+			(property "Description" "OP Amp Dual Volt Fdbk R-R O/P ??12V/24V 8-Pin SOIC N Tube"
 				(at 0 0 0)
 				(effects
 					(font
@@ -775,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "OP Amp Dual Volt Fdbk R-R O/P ??12V/24V 8-Pin SOIC N Tube"
+			(property "MF" "Analog Devices"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5075,7 +5066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VA"
 			(at 195.58 173.99 0)
 			(effects
 				(font
@@ -5140,8 +5131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 288.798 127 90)
+		(property "Value" "+5VA"
+			(at 287.274 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,8 +5348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 166.878 151.13 90)
+		(property "Value" "-5VA"
+			(at 165.862 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,8 +5481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 329.692 92.71 90)
+		(property "Value" "+5VA"
+			(at 330.962 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,8 +5679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 198.882 135.89 90)
+		(property "Value" "+5VA"
+			(at 199.644 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,8 +5962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 187.198 210.82 90)
+		(property "Value" "+5VA"
+			(at 186.436 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,8 +6520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 156.718 95.25 90)
+		(property "Value" "+5VA"
+			(at 155.702 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,8 +6997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 146.558 102.87 90)
+		(property "Value" "+5VA"
+			(at 145.288 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,8 +7212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 156.718 118.11 90)
+		(property "Value" "-5VA"
+			(at 155.702 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,8 +7645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 197.358 203.2 90)
+		(property "Value" "+5VA"
+			(at 196.342 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,8 +7785,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 297.688 107.95 90)
+		(property "Value" "-5VA"
+			(at 296.672 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
+		(property "Value" "-5VA"
 			(at 320.04 67.31 0)
 			(effects
 				(font
@@ -8487,7 +8478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
+		(property "Value" "-5VA"
 			(at 213.36 173.99 0)
 			(effects
 				(font
@@ -9128,7 +9119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VA"
 			(at 283.21 67.31 0)
 			(effects
 				(font
@@ -9261,8 +9252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 277.368 134.62 90)
+		(property "Value" "+5VA"
+			(at 276.606 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
+		(property "Value" "-5VA"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -9758,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VA"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -10629,8 +10620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 288.798 149.86 90)
+		(property "Value" "-5VA"
+			(at 287.528 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,8 +10982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 197.358 226.06 90)
+		(property "Value" "-5VA"
+			(at 196.342 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
