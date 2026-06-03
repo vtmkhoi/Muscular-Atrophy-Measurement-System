@@ -3797,16 +3797,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 100.33) (xy 87.63 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa6027b-be49-42ae-bb8b-d4f5a944d279")
-	)
-	(wire
-		(pts
 			(xy 199.39 95.25) (xy 201.93 95.25)
 		)
 		(stroke
@@ -4207,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 102.87) (xy 87.63 102.87)
+			(xy 55.88 100.33) (xy 87.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 87.63 105.41)
+			(xy 55.88 102.87) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4755,16 +4745,6 @@
 		)
 		(uuid "2ff9e114-953e-433d-b927-1389f2d262b5")
 	)
-	(label "I_SENSE_RAW"
-		(at 55.88 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4deb956a-af99-4bca-8b1f-666a335e442e")
-	)
 	(label "CURRENT_PUMP_2"
 		(at 163.83 218.44 0)
 		(effects
@@ -4946,7 +4926,7 @@
 		(uuid "e2b6dc36-9f4d-4b04-896b-2279b186c5c7")
 	)
 	(label "IN_LOAD-"
-		(at 55.88 105.41 0)
+		(at 55.88 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4966,7 +4946,7 @@
 		(uuid "ebc8b701-1979-4ea2-a54d-1be29def9b9a")
 	)
 	(label "IN_LOAD+"
-		(at 55.88 102.87 0)
+		(at 55.88 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5397,7 +5377,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 87.63 102.87 270)
+		(at 87.63 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5385,7 @@
 		(dnp no)
 		(uuid "0e617740-816b-4ca2-9053-6c4e09ee38b5")
 		(property "Reference" "TP19"
-			(at 92.71 101.5999 90)
+			(at 92.71 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5395,7 @@
 			)
 		)
 		(property "Value" "TP_GND"
-			(at 92.202 102.87 90)
+			(at 92.202 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5405,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 87.63 107.95 0)
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 107.95 0)
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5423,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 87.63 102.87 0)
+			(at 87.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,74 +5851,6 @@
 			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/c38e0689-e95b-416d-aac4-9077624f7b68"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 87.63 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "201a4a01-51e9-45be-bc7d-b76285893196")
-		(property "Reference" "TP18"
-			(at 92.71 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN_DiffToSingle"
-			(at 92.202 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 87.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76efeadb-da5c-40ee-848c-1849282f3125")
-		)
-		(instances
-			(project "EIM_Module"
-				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/c38e0689-e95b-416d-aac4-9077624f7b68"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -9168,7 +9080,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 87.63 105.41 270)
+		(at 87.63 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9176,7 +9088,7 @@
 		(dnp no)
 		(uuid "ab7fa906-4d79-4289-b65f-34afbd8fe2c2")
 		(property "Reference" "TP20"
-			(at 92.71 104.1399 90)
+			(at 92.71 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9098,7 @@
 			)
 		)
 		(property "Value" "TP_GND"
-			(at 92.202 105.41 90)
+			(at 92.202 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +9108,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 87.63 110.49 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9117,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 110.49 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +9126,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 87.63 105.41 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
