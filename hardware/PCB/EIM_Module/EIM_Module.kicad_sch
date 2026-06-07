@@ -1527,10 +1527,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0170de43-9e9d-439b-b85a-42edf985f687")
 		(property "Reference" "D3"
-			(at 50.8 145.7324 90)
+			(at 49.53 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,8 +1537,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 50.8 148.2724 90)
+		(property "Value" "+5AV"
+			(at 49.276 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,10 +1670,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "166eac4c-8d41-44f0-8bcb-c881af0ef40e")
 		(property "Reference" "D4"
-			(at 59.69 145.7324 90)
+			(at 58.42 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,8 +1680,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 59.69 148.2724 90)
+		(property "Value" "-5AV"
+			(at 58.42 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2010,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29dcd25b-0eac-4f85-aab8-27bfb685b0bb")
 		(property "Reference" "D1"
 			(at 31.75 145.7324 90)
@@ -2023,7 +2020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "+3.3V"
 			(at 31.75 148.2724 90)
 			(effects
 				(font
@@ -2075,7 +2072,7 @@
 			(uuid "1076a349-3b9d-49d1-b161-b3ba4494496b")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863"
 					(reference "D1")
 					(unit 1)
@@ -2479,7 +2476,7 @@
 			(uuid "4a4a834f-eee4-467b-af70-4cea543abd0f")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863"
 					(reference "#PWR022")
 					(unit 1)
@@ -2752,7 +2749,7 @@
 			(uuid "0d503a57-59a1-4690-af91-6df995e6ef9d")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863"
 					(reference "#FLG01")
 					(unit 1)
@@ -2898,10 +2895,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ff32a26-09c6-4ad6-b617-8217f4062c80")
 		(property "Reference" "D2"
-			(at 41.91 145.7324 90)
+			(at 40.386 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,8 +2905,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 41.91 148.2724 90)
+		(property "Value" "+3.3AV"
+			(at 39.878 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3556,7 @@
 			(uuid "405d9b15-1a6e-4df4-8655-5ddc9f7170bc")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863"
 					(reference "#PWR046")
 					(unit 1)
@@ -3849,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5VA"
+		(property "Value" "+5VA"
 			(at 38.608 114.808 0)
 			(effects
 				(font

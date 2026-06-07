@@ -5394,14 +5394,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TP_GND"
+		(property "Value" "LOAD+"
 			(at 92.202 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5527,14 +5526,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VOUT_BUFFER"
+		(property "Value" "V_Tis"
 			(at 92.202 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -9097,14 +9095,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TP_GND"
+		(property "Value" "LOAD-"
 			(at 92.202 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10641,7 +10638,7 @@
 			(uuid "e83df877-b78e-4dcb-a8d9-2b9fde0b624f")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/c38e0689-e95b-416d-aac4-9077624f7b68"
 					(reference "J8")
 					(unit 1)

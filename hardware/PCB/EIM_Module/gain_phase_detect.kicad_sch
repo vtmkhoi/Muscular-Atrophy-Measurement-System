@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(uuid "0864dcfe-f535-48af-8c58-5f091ff2d9d9")
 		(property "Reference" "R36"
-			(at 69.088 148.844 90)
+			(at 73.66 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 78.994 148.844 90)
+			(at 73.66 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3869,7 @@
 			(uuid "cdcba490-b903-4178-a717-38b2c0820291")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/74b58529-d9d4-494e-b316-602f6b154641"
 					(reference "U10")
 					(unit 1)
@@ -3973,14 +3973,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TP_GND"
+		(property "Value" "INPB"
 			(at 74.422 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -4967,7 +4966,7 @@
 			(uuid "537c12df-94d8-4a12-8f5c-03c95499d5fe")
 		)
 		(instances
-			(project ""
+			(project "EIM_Module"
 				(path "/b637c68f-0528-4d93-9932-d8222f5b2863/74b58529-d9d4-494e-b316-602f6b154641"
 					(reference "U9")
 					(unit 1)
@@ -5136,14 +5135,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VOUT_FILTERED"
+		(property "Value" "INPA"
 			(at 74.422 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5390,7 +5388,7 @@
 		(dnp no)
 		(uuid "cc97d73e-f1e3-4a8f-84be-e60a71dbd6c8")
 		(property "Reference" "R37"
-			(at 29.718 143.764 90)
+			(at 34.29 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5396,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 39.624 143.764 90)
+			(at 34.29 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,14 +5549,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TP_GND"
+		(property "Value" "VPHS"
 			(at 74.422 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5696,14 +5693,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VIN_DiffToSingle"
+		(property "Value" "I_Sense"
 			(at 74.422 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5829,14 +5825,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TP_GND"
+		(property "Value" "VMAG"
 			(at 74.422 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
