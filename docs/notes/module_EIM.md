@@ -183,8 +183,8 @@ Per Sanchez 2016 (project file `EIM__Guildine_to_electrode_positioning_for_human
                               ▼ I_inject                                     ▼ I_return
                 ┌──── HC ────────TETRAPOLAR ELECTRODES─────── LC ─────┐
                 │       │                                  │          │
-                │       ●── HP                       LP ──●           │
-                │       │      [tissue (R+jX)]          │             │
+                │       ●── HP                        LP ──●          │
+                │       │      [tissue (R+jX)]             │             │
                 │       │                              │             │
                 │       └─►V+    V−◄─┘                                │
                 │          ▼                ▼                         │
